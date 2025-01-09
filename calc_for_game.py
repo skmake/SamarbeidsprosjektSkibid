@@ -24,3 +24,15 @@ def skibid_calc_4():
     Dette er ikke en calc, men får det til å se ut som om jeg jobber hardt, dont tell the boss
     '''
     print("Skibidi pop pop", skibid_calc_3(-0,-0,-0), "number of cho")
+    
+def skibidi_calc_5(first_num:float,operator:str,second_num:float):
+    if operator == '+':
+        return first_num + second_num
+    elif operator == '-':
+        return first_num - second_num
+    elif operator == '*':
+        return first_num * second_num
+    elif operator == '/':
+        return first_num / second_num
+    else:
+        return 0
