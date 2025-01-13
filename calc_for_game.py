@@ -11,3 +11,5 @@ def skibidi_calc(first_num:float,operator:str,second_num:float):
         return first_num / second_num
     else:
         return 'Invalid operator, do it again skibidi pap pap'
+
+print("fakk elis")
